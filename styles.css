@@ -67,15 +67,15 @@ body {
   box-shadow: var(--shadow);
 }
 
-.hero { padding: 1.25rem 1.25rem 1.5rem; }
-.section { padding: 1.7rem; }
+.hero { padding: 1.5rem 1.5rem 1.75rem; }
+.section { padding: 2.2rem 2rem; }
 
 .topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.5rem;
 }
 
 .brand {
@@ -122,15 +122,15 @@ h1, h2, h3, p { margin-top: 0; }
 h1 {
   font-size: clamp(3rem, 7vw, 6rem);
   line-height: 0.94;
-  margin-bottom: 1rem;
-  max-width: 10ch;
+  margin: 0 auto 1rem;
+  max-width: 12ch;
 }
 
 h2 {
   font-size: clamp(2rem, 4.2vw, 3.3rem);
   line-height: 1.02;
-  margin-bottom: 1rem;
-  max-width: 15ch;
+  margin: 0 auto 1rem;
+  max-width: 18ch;
 }
 
 h3 {
@@ -153,15 +153,24 @@ h3 {
 }
 
 .narrow p { max-width: 70ch; }
-.section-head { margin-bottom: 1rem; }
-.section-head h2 { max-width: 16ch; }
+.section-head {
+  max-width: 860px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
+.section-head h2 { max-width: 18ch; }
+.section-head p {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .long-copy-section .section-head h2 {
-  max-width: 18ch;
+  max-width: 20ch;
 }
 
 .body-copy {
-  max-width: 76ch;
+  width: min(100%, 74ch);
+  margin: 0 auto;
 }
 
 .body-copy p {
@@ -169,7 +178,9 @@ h3 {
 }
 
 .longform-hero {
-  max-width: 78ch;
+  max-width: 82ch;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .cta-row {
@@ -177,6 +188,7 @@ h3 {
   flex-wrap: wrap;
   gap: 0.85rem;
   margin: 1.5rem 0 1.25rem;
+  justify-content: center;
 }
 .cta-row.center { justify-content: center; }
 
@@ -207,6 +219,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem;
+  justify-content: center;
 }
 .micro-proof span {
   padding: 0.58rem 0.82rem;
@@ -250,12 +263,14 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
+  align-items: stretch;
 }
 
 .glass-card,
 .offer-card,
 .proof-card {
-  padding: 1.25rem;
+  padding: 1.35rem;
+  text-align: center;
 }
 
 .offer-card.featured {
@@ -263,19 +278,24 @@ h3 {
 }
 
 .split-layout {
+  max-width: 960px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.92fr);
-  gap: 1.1rem;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
   align-items: start;
+  text-align: center;
 }
 
 .check-stack {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.85rem;
 }
 .check-card {
   padding: 1rem 1.1rem;
   font-weight: 600;
+  text-align: center;
 }
 
 .final-card {
@@ -292,18 +312,19 @@ h3 {
   .problem-grid,
   .offer-grid,
   .proof-grid,
-  .split-layout {
+  .split-layout,
+  .check-stack {
     grid-template-columns: 1fr;
   }
 
-  h1 { max-width: 12ch; }
+  h1 { max-width: 13ch; }
   h2 { max-width: 100%; }
 }
 
 @media (max-width: 640px) {
   .page { width: min(100% - 1rem, 1160px); }
   .hero { padding: 1rem; }
-  .section { padding: 1.2rem; }
+  .section { padding: 1.25rem; }
   h1 { font-size: clamp(2.5rem, 14vw, 4.2rem); }
   .button { width: 100%; }
   .cta-row { flex-direction: column; }
