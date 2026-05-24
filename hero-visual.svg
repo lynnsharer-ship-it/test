@@ -5,28 +5,48 @@
   <circle cx="1000" cy="720" r="170" fill="url(#orb3)" fill-opacity="0.7"/>
   <circle cx="180" cy="720" r="130" fill="url(#orb4)" fill-opacity="0.7"/>
 
-  <rect x="140" y="130" width="920" height="640" rx="36" fill="rgba(255,255,255,0.10)"/>
-  <rect x="140" y="130" width="920" height="640" rx="36" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <rect x="120" y="105" width="960" height="690" rx="40" fill="url(#panelFill)"/>
+  <rect x="120" y="105" width="960" height="690" rx="40" stroke="rgba(255,255,255,0.24)" stroke-width="2"/>
 
-  <rect x="220" y="220" width="510" height="110" rx="24" fill="rgba(255,255,255,0.92)"/>
-  <rect x="220" y="360" width="620" height="34" rx="17" fill="rgba(255,255,255,0.35)"/>
-  <rect x="220" y="416" width="560" height="34" rx="17" fill="rgba(255,255,255,0.24)"/>
-  <rect x="220" y="472" width="470" height="34" rx="17" fill="rgba(255,255,255,0.18)"/>
+  <rect x="170" y="145" width="860" height="54" rx="18" fill="rgba(255,255,255,0.14)"/>
+  <circle cx="208" cy="172" r="9" fill="#61F3FF"/>
+  <circle cx="240" cy="172" r="9" fill="#FFD966"/>
+  <circle cx="272" cy="172" r="9" fill="#FF7AA2"/>
+  <rect x="330" y="155" width="188" height="34" rx="17" fill="rgba(255,255,255,0.18)"/>
+  <rect x="534" y="155" width="148" height="34" rx="17" fill="rgba(255,255,255,0.12)"/>
+  <rect x="830" y="155" width="160" height="34" rx="17" fill="rgba(255,255,255,0.18)"/>
 
-  <rect x="220" y="560" width="270" height="86" rx="24" fill="url(#cta)"/>
-  <rect x="520" y="560" width="180" height="86" rx="24" fill="rgba(255,255,255,0.14)"/>
+  <rect x="185" y="225" width="470" height="86" rx="20" fill="rgba(255,255,255,0.94)"/>
+  <text x="215" y="279" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="800" fill="#101326">Build a business page</text>
 
-  <rect x="790" y="220" width="180" height="180" rx="28" fill="rgba(255,255,255,0.88)"/>
-  <text x="880" y="295" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="74">🚀</text>
-  <text x="880" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#1A1A2E">Launch-ready</text>
+  <rect x="690" y="226" width="145" height="42" rx="16" fill="rgba(255,255,255,0.18)"/>
+  <text x="762" y="253" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="white">Strategy</text>
+  <rect x="848" y="226" width="150" height="42" rx="16" fill="rgba(255,255,255,0.18)"/>
+  <text x="923" y="253" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="white">Messaging</text>
 
-  <rect x="760" y="450" width="240" height="140" rx="28" fill="rgba(255,255,255,0.16)"/>
-  <text x="790" y="500" font-family="Inter, Arial, sans-serif" font-size="24" fill="white">✨ Clear offer</text>
-  <text x="790" y="540" font-family="Inter, Arial, sans-serif" font-size="24" fill="white">📣 Sharp copy</text>
-  <text x="790" y="580" font-family="Inter, Arial, sans-serif" font-size="24" fill="white">🌍 Live page</text>
+  <rect x="185" y="340" width="560" height="26" rx="13" fill="rgba(255,255,255,0.40)"/>
+  <rect x="185" y="384" width="630" height="26" rx="13" fill="rgba(255,255,255,0.28)"/>
+  <rect x="185" y="428" width="520" height="26" rx="13" fill="rgba(255,255,255,0.22)"/>
+  <rect x="185" y="472" width="590" height="26" rx="13" fill="rgba(255,255,255,0.18)"/>
 
-  <text x="220" y="288" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="800" fill="#101326">Build a business page</text>
-  <text x="220" y="640" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">Get clear. Get convincing. Get live.</text>
+  <rect x="185" y="550" width="295" height="92" rx="24" fill="url(#cta)"/>
+  <text x="332" y="605" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#111827">Get clear</text>
+  <rect x="505" y="550" width="190" height="92" rx="24" fill="rgba(255,255,255,0.16)"/>
+  <text x="600" y="605" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="white">Sharpen</text>
+  <rect x="720" y="550" width="210" height="92" rx="24" fill="rgba(255,255,255,0.16)"/>
+  <text x="825" y="605" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="white">Launch</text>
+
+  <rect x="820" y="300" width="170" height="170" rx="28" fill="rgba(255,255,255,0.90)"/>
+  <text x="905" y="375" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="74">🚀</text>
+  <text x="905" y="427" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#1A1A2E">Launch-ready</text>
+
+  <rect x="770" y="495" width="230" height="170" rx="28" fill="rgba(255,255,255,0.18)"/>
+  <text x="800" y="545" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="white">✨ Clear offer</text>
+  <text x="800" y="588" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="white">📣 Sharp copy</text>
+  <text x="800" y="631" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="white">🌍 Live page</text>
+
+  <rect x="185" y="680" width="815" height="70" rx="24" fill="rgba(255,255,255,0.12)"/>
+  <text x="220" y="724" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="white">Get clear. Get convincing. Get live.</text>
 
   <defs>
     <linearGradient id="bg" x1="80" y1="60" x2="1120" y2="860" gradientUnits="userSpaceOnUse">
@@ -34,6 +54,11 @@
       <stop offset="0.34" stop-color="#5B2BE0"/>
       <stop offset="0.7" stop-color="#FF5E7E"/>
       <stop offset="1" stop-color="#FFB84D"/>
+    </linearGradient>
+    <linearGradient id="panelFill" x1="120" y1="105" x2="1080" y2="795" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="0.55" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.14)"/>
     </linearGradient>
     <radialGradient id="orb1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 170) rotate(90) scale(120)">
       <stop stop-color="#61F3FF"/>
@@ -51,7 +76,7 @@
       <stop stop-color="#8BFFB0"/>
       <stop offset="1" stop-color="#8BFFB0" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="cta" x1="220" y1="560" x2="490" y2="646" gradientUnits="userSpaceOnUse">
+    <linearGradient id="cta" x1="185" y1="550" x2="480" y2="642" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FFB84D"/>
       <stop offset="1" stop-color="#FF5E7E"/>
     </linearGradient>
