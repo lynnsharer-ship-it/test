@@ -97,6 +97,10 @@ body {
   align-items: stretch;
 }
 
+.hero-grid.single-column {
+  grid-template-columns: 1fr;
+}
+
 .eyebrow,
 .panel-label,
 .offer-kicker,
@@ -141,7 +145,8 @@ h3 {
 .proof-card p,
 .check-card,
 .stack-item span,
-.final-card p {
+.final-card p,
+.body-copy p {
   color: var(--muted);
   line-height: 1.72;
   font-size: 1.03rem;
@@ -150,6 +155,22 @@ h3 {
 .narrow p { max-width: 70ch; }
 .section-head { margin-bottom: 1rem; }
 .section-head h2 { max-width: 16ch; }
+
+.long-copy-section .section-head h2 {
+  max-width: 18ch;
+}
+
+.body-copy {
+  max-width: 76ch;
+}
+
+.body-copy p {
+  margin-bottom: 1.05rem;
+}
+
+.longform-hero {
+  max-width: 78ch;
+}
 
 .cta-row {
   display: flex;
