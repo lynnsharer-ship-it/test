@@ -1,17 +1,17 @@
 :root {
-  --bg: #07111f;
-  --bg-soft: #0f1c31;
-  --panel: rgba(10, 22, 41, 0.7);
-  --panel-2: rgba(255, 255, 255, 0.06);
-  --text: #f8fbff;
-  --muted: #b7c4d9;
-  --line: rgba(255, 255, 255, 0.1);
-  --accent: #67e8f9;
-  --accent-2: #7c3aed;
-  --accent-3: #60a5fa;
-  --button: #7c3aed;
-  --button-2: #101d34;
-  --shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+  --bg: #071019;
+  --bg-soft: #0d1826;
+  --panel: rgba(11, 20, 32, 0.78);
+  --panel-2: rgba(255, 255, 255, 0.05);
+  --text: #f8f4eb;
+  --muted: #c6bdaf;
+  --line: rgba(220, 196, 150, 0.16);
+  --accent: #e7c98a;
+  --accent-2: #9f7aea;
+  --accent-3: #8bb6ff;
+  --button: #d8b16f;
+  --button-2: #121d2d;
+  --shadow: 0 34px 90px rgba(0, 0, 0, 0.42);
 }
 
 * { box-sizing: border-box; }
@@ -21,9 +21,9 @@ body {
   font-family: 'Inter', system-ui, sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at 15% 20%, rgba(103, 232, 249, 0.16), transparent 24%),
-    radial-gradient(circle at 85% 10%, rgba(124, 58, 237, 0.18), transparent 26%),
-    linear-gradient(180deg, #06101d 0%, #081323 34%, #0a1628 100%);
+    radial-gradient(circle at 12% 18%, rgba(231, 201, 138, 0.12), transparent 24%),
+    radial-gradient(circle at 88% 10%, rgba(159, 122, 234, 0.12), transparent 24%),
+    linear-gradient(180deg, #050d15 0%, #08111b 34%, #0a1420 100%);
   overflow-x: hidden;
 }
 
@@ -36,8 +36,8 @@ body {
   opacity: 0.22;
   pointer-events: none;
 }
-.orb-1 { background: #22d3ee; top: -8rem; left: -8rem; }
-.orb-2 { background: #8b5cf6; top: 18rem; right: -10rem; }
+.orb-1 { background: #d8b16f; top: -8rem; left: -8rem; }
+.orb-2 { background: #7c5cff; top: 18rem; right: -10rem; }
 
 .page {
   position: relative;
@@ -63,7 +63,7 @@ body {
   margin-top: 1rem;
   border: 1px solid var(--line);
   border-radius: 30px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.025));
+  background: linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.018));
   box-shadow: var(--shadow);
 }
 
@@ -80,14 +80,17 @@ body {
 
 .brand {
   font-weight: 800;
-  letter-spacing: 0.02em;
-  font-size: 1.08rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  color: var(--accent);
 }
 
 .ghost-link {
   color: var(--muted);
   text-decoration: none;
   font-weight: 600;
+  letter-spacing: 0.04em;
 }
 
 .hero-grid {
@@ -122,6 +125,7 @@ h1, h2, h3, p { margin-top: 0; }
 h1 {
   font-size: clamp(3rem, 7vw, 6rem);
   line-height: 0.94;
+  letter-spacing: -0.04em;
   margin: 0 auto 1rem;
   max-width: 12ch;
 }
@@ -129,6 +133,7 @@ h1 {
 h2 {
   font-size: clamp(2rem, 4.2vw, 3.3rem);
   line-height: 1.02;
+  letter-spacing: -0.035em;
   margin: 0 auto 1rem;
   max-width: 18ch;
 }
@@ -205,12 +210,12 @@ h3 {
 }
 .button:hover { transform: translateY(-1px); }
 .button.primary {
-  background: linear-gradient(135deg, var(--button), #4f46e5);
-  color: white;
-  box-shadow: 0 14px 30px rgba(124, 58, 237, 0.32);
+  background: linear-gradient(135deg, #f0d59c, var(--button));
+  color: #1a140d;
+  box-shadow: 0 16px 34px rgba(216, 177, 111, 0.22);
 }
 .button.secondary {
-  background: rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.04);
   border: 1px solid var(--line);
   color: var(--text);
 }
@@ -224,9 +229,9 @@ h3 {
 .micro-proof span {
   padding: 0.58rem 0.82rem;
   border-radius: 999px;
-  border: 1px solid rgba(103, 232, 249, 0.16);
-  background: rgba(103, 232, 249, 0.08);
-  color: #dcfbff;
+  border: 1px solid rgba(231, 201, 138, 0.18);
+  background: rgba(231, 201, 138, 0.08);
+  color: #f2dfb6;
   font-weight: 600;
   font-size: 0.94rem;
 }
@@ -240,6 +245,7 @@ h3 {
   border: 1px solid var(--line);
   background: var(--panel);
   border-radius: 24px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.03), 0 10px 30px rgba(0,0,0,0.16);
 }
 
 .hero-panel {
@@ -274,7 +280,7 @@ h3 {
 }
 
 .offer-card.featured {
-  background: linear-gradient(180deg, rgba(96,165,250,0.15), rgba(124,58,237,0.12));
+  background: linear-gradient(180deg, rgba(231,201,138,0.12), rgba(124,58,237,0.10));
 }
 
 .split-layout {
