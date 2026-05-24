@@ -1,0 +1,59 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <circle cx="180" cy="170" r="120" fill="url(#orb1)" fill-opacity="0.9"/>
+  <circle cx="980" cy="150" r="150" fill="url(#orb2)" fill-opacity="0.9"/>
+  <circle cx="1000" cy="720" r="170" fill="url(#orb3)" fill-opacity="0.7"/>
+  <circle cx="180" cy="720" r="130" fill="url(#orb4)" fill-opacity="0.7"/>
+
+  <rect x="140" y="130" width="920" height="640" rx="36" fill="rgba(255,255,255,0.10)"/>
+  <rect x="140" y="130" width="920" height="640" rx="36" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+
+  <rect x="220" y="220" width="510" height="110" rx="24" fill="rgba(255,255,255,0.92)"/>
+  <rect x="220" y="360" width="620" height="34" rx="17" fill="rgba(255,255,255,0.35)"/>
+  <rect x="220" y="416" width="560" height="34" rx="17" fill="rgba(255,255,255,0.24)"/>
+  <rect x="220" y="472" width="470" height="34" rx="17" fill="rgba(255,255,255,0.18)"/>
+
+  <rect x="220" y="560" width="270" height="86" rx="24" fill="url(#cta)"/>
+  <rect x="520" y="560" width="180" height="86" rx="24" fill="rgba(255,255,255,0.14)"/>
+
+  <rect x="790" y="220" width="180" height="180" rx="28" fill="rgba(255,255,255,0.88)"/>
+  <text x="880" y="295" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="74">🚀</text>
+  <text x="880" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#1A1A2E">Launch-ready</text>
+
+  <rect x="760" y="450" width="240" height="140" rx="28" fill="rgba(255,255,255,0.16)"/>
+  <text x="790" y="500" font-family="Inter, Arial, sans-serif" font-size="24" fill="white">✨ Clear offer</text>
+  <text x="790" y="540" font-family="Inter, Arial, sans-serif" font-size="24" fill="white">📣 Sharp copy</text>
+  <text x="790" y="580" font-family="Inter, Arial, sans-serif" font-size="24" fill="white">🌍 Live page</text>
+
+  <text x="220" y="288" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="800" fill="#101326">Build a business page</text>
+  <text x="220" y="640" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">Get clear. Get convincing. Get live.</text>
+
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="1120" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132238"/>
+      <stop offset="0.34" stop-color="#5B2BE0"/>
+      <stop offset="0.7" stop-color="#FF5E7E"/>
+      <stop offset="1" stop-color="#FFB84D"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 170) rotate(90) scale(120)">
+      <stop stop-color="#61F3FF"/>
+      <stop offset="1" stop-color="#61F3FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 150) rotate(90) scale(150)">
+      <stop stop-color="#FFD966"/>
+      <stop offset="1" stop-color="#FFD966" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 720) rotate(90) scale(170)">
+      <stop stop-color="#FF6B98"/>
+      <stop offset="1" stop-color="#FF6B98" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 720) rotate(90) scale(130)">
+      <stop stop-color="#8BFFB0"/>
+      <stop offset="1" stop-color="#8BFFB0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cta" x1="220" y1="560" x2="490" y2="646" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB84D"/>
+      <stop offset="1" stop-color="#FF5E7E"/>
+    </linearGradient>
+  </defs>
+</svg>
