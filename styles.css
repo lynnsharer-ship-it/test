@@ -463,8 +463,94 @@ h3 {
 }
 
 .cta-banner-section,
-.visual-card-section {
+.visual-card-section,
+.spotlight-section,
+.split-banner-section {
   padding: 1.4rem 1.6rem;
+}
+
+.spotlight-section {
+  background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 56%, #06b6d4 100%);
+}
+
+.spotlight-section::before,
+.split-banner-section::before {
+  background: linear-gradient(90deg, #ffffff, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+.spotlight-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.spotlight-copy h2,
+.spotlight-copy p,
+.spotlight-copy .eyebrow {
+  color: white;
+}
+
+.proof-stack {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.proof-shot {
+  border-radius: 22px;
+  padding: 1.15rem;
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 16px 34px rgba(0,0,0,0.16);
+}
+
+.proof-shot strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: white;
+  font-size: 1.05rem;
+}
+
+.proof-shot span {
+  color: rgba(255,255,255,0.88);
+  line-height: 1.5;
+}
+
+.proof-shot-dark { background: linear-gradient(160deg, rgba(15,23,42,0.88), rgba(30,41,59,0.96)); }
+.proof-shot-blue { background: linear-gradient(160deg, rgba(37,99,235,0.88), rgba(29,78,216,0.96)); }
+.proof-shot-cyan { background: linear-gradient(160deg, rgba(8,145,178,0.88), rgba(6,182,212,0.96)); }
+
+.split-banner {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.split-banner-left,
+.split-banner-right {
+  border-radius: 26px;
+  padding: 1.4rem;
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.10);
+}
+
+.split-banner-left {
+  background: linear-gradient(160deg, #eff6ff, #dbeafe);
+  border: 1px solid rgba(37,99,235,0.14);
+}
+
+.split-banner-right {
+  background: linear-gradient(160deg, #0f172a, #1d4ed8);
+  border: 1px solid rgba(37,99,235,0.18);
+}
+
+.split-banner-left h3,
+.split-banner-left p {
+  color: #0f172a;
+}
+
+.split-banner-right h3,
+.split-banner-right p,
+.split-banner-right .eyebrow {
+  color: white;
 }
 
 .cta-banner {
@@ -733,7 +819,9 @@ h3 {
   .timeline-steps,
   .visual-card-grid,
   .visual-card-grid-2,
-  .cta-banner {
+  .cta-banner,
+  .spotlight-grid,
+  .split-banner {
     grid-template-columns: 1fr;
   }
 
