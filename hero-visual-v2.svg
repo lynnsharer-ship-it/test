@@ -1,0 +1,88 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <circle cx="180" cy="170" r="130" fill="url(#orb1)" fill-opacity="0.95"/>
+  <circle cx="1000" cy="150" r="160" fill="url(#orb2)" fill-opacity="0.95"/>
+  <circle cx="1010" cy="720" r="180" fill="url(#orb3)" fill-opacity="0.75"/>
+  <circle cx="180" cy="720" r="140" fill="url(#orb4)" fill-opacity="0.75"/>
+
+  <rect x="105" y="95" width="990" height="710" rx="42" fill="url(#panelFill)"/>
+  <rect x="105" y="95" width="990" height="710" rx="42" stroke="rgba(255,255,255,0.28)" stroke-width="2.5"/>
+
+  <rect x="155" y="138" width="890" height="56" rx="18" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="194" cy="166" r="9" fill="#61F3FF"/>
+  <circle cx="226" cy="166" r="9" fill="#FFD966"/>
+  <circle cx="258" cy="166" r="9" fill="#FF7AA2"/>
+  <rect x="314" y="149" width="210" height="34" rx="17" fill="rgba(255,255,255,0.16)"/>
+  <rect x="790" y="149" width="215" height="34" rx="17" fill="rgba(255,255,255,0.18)"/>
+
+  <rect x="170" y="230" width="520" height="98" rx="22" fill="rgba(255,255,255,0.95)"/>
+  <text x="198" y="292" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="800" fill="#0F172A">Build a business page</text>
+
+  <rect x="725" y="230" width="120" height="40" rx="15" fill="#2563EB" fill-opacity="0.95"/>
+  <text x="785" y="255" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="white">Strategy</text>
+  <rect x="860" y="230" width="145" height="40" rx="15" fill="#06B6D4" fill-opacity="0.95"/>
+  <text x="932" y="255" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="white">Messaging</text>
+
+  <rect x="170" y="360" width="600" height="24" rx="12" fill="rgba(255,255,255,0.44)"/>
+  <rect x="170" y="404" width="650" height="24" rx="12" fill="rgba(255,255,255,0.30)"/>
+  <rect x="170" y="448" width="560" height="24" rx="12" fill="rgba(255,255,255,0.24)"/>
+  <rect x="170" y="492" width="610" height="24" rx="12" fill="rgba(255,255,255,0.18)"/>
+
+  <rect x="830" y="305" width="165" height="165" rx="28" fill="rgba(255,255,255,0.94)"/>
+  <text x="912" y="377" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="72">🚀</text>
+  <text x="912" y="429" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#0F172A">Launch-ready</text>
+
+  <rect x="760" y="505" width="265" height="148" rx="30" fill="rgba(15,23,42,0.20)" stroke="rgba(255,255,255,0.18)"/>
+  <circle cx="792" cy="546" r="8" fill="#FFD966"/>
+  <text x="812" y="553" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="white">Clear offer</text>
+  <circle cx="792" cy="592" r="8" fill="#FF7AA2"/>
+  <text x="812" y="599" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="white">Sharp copy</text>
+  <circle cx="792" cy="638" r="8" fill="#61F3FF"/>
+  <text x="812" y="645" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="white">Live page</text>
+
+  <rect x="170" y="560" width="245" height="94" rx="24" fill="url(#cta1)"/>
+  <text x="292" y="618" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#111827">Get clear</text>
+
+  <rect x="438" y="560" width="195" height="94" rx="24" fill="#7C3AED" fill-opacity="0.92"/>
+  <text x="535" y="618" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="800" fill="white">Sharpen</text>
+
+  <rect x="656" y="560" width="195" height="94" rx="24" fill="#0F172A" fill-opacity="0.92"/>
+  <text x="753" y="618" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="800" fill="white">Launch</text>
+
+  <rect x="170" y="688" width="760" height="74" rx="26" fill="rgba(255,255,255,0.22)"/>
+  <text x="205" y="734" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800" fill="white">Get clear. Get convincing. Get live.</text>
+
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="1120" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132238"/>
+      <stop offset="0.32" stop-color="#4F46E5"/>
+      <stop offset="0.68" stop-color="#FF5E7E"/>
+      <stop offset="1" stop-color="#FFB84D"/>
+    </linearGradient>
+    <linearGradient id="panelFill" x1="105" y1="95" x2="1095" y2="805" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(255,255,255,0.15)"/>
+      <stop offset="0.5" stop-color="rgba(255,255,255,0.09)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.15)"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 170) rotate(90) scale(130)">
+      <stop stop-color="#61F3FF"/>
+      <stop offset="1" stop-color="#61F3FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 150) rotate(90) scale(160)">
+      <stop stop-color="#FFD966"/>
+      <stop offset="1" stop-color="#FFD966" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 720) rotate(90) scale(180)">
+      <stop stop-color="#FF6B98"/>
+      <stop offset="1" stop-color="#FF6B98" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 720) rotate(90) scale(140)">
+      <stop stop-color="#8BFFB0"/>
+      <stop offset="1" stop-color="#8BFFB0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cta1" x1="170" y1="560" x2="415" y2="654" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB84D"/>
+      <stop offset="1" stop-color="#FF5E7E"/>
+    </linearGradient>
+  </defs>
+</svg>
