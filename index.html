@@ -3,124 +3,171 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MM Now — Turn a business idea into a launch-ready plan</title>
+    <title>MM Now — Build the business, not the confusion</title>
     <meta
       name="description"
-      content="MM Now helps founders turn messy business ideas into clear offers, launch plans, copy, and next steps without getting stuck in endless research."
+      content="MM Now helps founders turn unclear ideas into focused offers, persuasive launch assets, and live pages they can actually ship."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
     <main class="page">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">MM NOW</p>
-          <h1>Turn a business idea into a launch-ready plan.</h1>
-          <p class="subhead">
-            Get clear positioning, practical offers, launch copy, and concrete next steps — without drowning in theory,
-            hype, or random busywork.
+      <section class="hero shell">
+        <nav class="topbar">
+          <div class="brand">MM Now</div>
+          <a class="ghost-link" href="https://github.com/lynnsharer-ship-it/test">Live Repo</a>
+        </nav>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">BUSINESS BUILDING, MADE PRACTICAL</p>
+            <h1>Build the business, not the confusion.</h1>
+            <p class="subhead">
+              MM Now helps founders turn messy ideas into clear offers, sharp positioning, launch-ready copy, and live pages
+              they can actually ship.
+            </p>
+
+            <div class="cta-row">
+              <a class="button primary" href="#offer">See the offer</a>
+              <a class="button secondary" href="#proof">See what’s already working</a>
+            </div>
+
+            <div class="micro-proof">
+              <span>Offer clarity</span>
+              <span>Sales copy systems</span>
+              <span>GitHub + Vercel deployment ready</span>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <p class="panel-label">From idea to launch</p>
+            <div class="stack-item">
+              <strong>1. Clarify</strong>
+              <span>Define the promise, audience, mechanism, and angle.</span>
+            </div>
+            <div class="stack-item">
+              <strong>2. Package</strong>
+              <span>Build the hero, sales page, and email assets that fit together.</span>
+            </div>
+            <div class="stack-item">
+              <strong>3. Ship</strong>
+              <span>Push a real page live instead of leaving it trapped in drafts.</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section shell problem">
+        <div class="section-head narrow">
+          <p class="eyebrow">THE REAL PROBLEM</p>
+          <h2>Most founders don’t need more ideas. They need a cleaner path.</h2>
+          <p>
+            The offer keeps shifting. The positioning feels vague. The copy doesn’t match the product. And every new tool adds
+            more tabs, more noise, and more half-finished launch assets.
           </p>
-          <div class="actions">
-            <a class="button primary" href="#offer">See the offer</a>
-            <a class="button secondary" href="https://github.com/lynnsharer-ship-it/test">View the live repo</a>
-          </div>
-          <ul class="proof-points">
-            <li>Clarify the offer fast</li>
-            <li>Build launch assets in sequence</li>
-            <li>Ship through GitHub + Vercel</li>
-          </ul>
         </div>
-        <aside class="hero-card">
-          <p class="mini-label">What MM Now helps you do</p>
-          <div class="mini-stat">
-            <strong>Validate</strong>
-            <span>Turn fuzzy ideas into concrete offers people can understand.</span>
-          </div>
-          <div class="mini-stat">
-            <strong>Package</strong>
-            <span>Create hero copy, sales pages, emails, and launch messaging that fit together.</span>
-          </div>
-          <div class="mini-stat">
-            <strong>Launch</strong>
-            <span>Push a real landing page live instead of leaving it stuck in drafts.</span>
-          </div>
-        </aside>
+
+        <div class="problem-grid">
+          <article class="glass-card">
+            <h3>You know there’s something here</h3>
+            <p>But it’s still too fuzzy to explain clearly, price confidently, or present in a way that converts.</p>
+          </article>
+          <article class="glass-card">
+            <h3>You want momentum, not busywork</h3>
+            <p>MM Now turns abstract strategy into useful decisions, persuasive assets, and next steps you can actually execute.</p>
+          </article>
+          <article class="glass-card">
+            <h3>You want to ship</h3>
+            <p>Not just “brainstorm.” Not just “research.” Not just save another draft and come back later.</p>
+          </article>
+        </div>
       </section>
 
-      <section class="panel" id="offer">
-        <div class="panel-header">
-          <p class="eyebrow">WHO IT'S FOR</p>
-          <h2>For founders who have momentum — but not a clean path.</h2>
+      <section class="section shell offer" id="offer">
+        <div class="section-head">
+          <p class="eyebrow">THE OFFER</p>
+          <h2>MM Now helps you go from business idea to launch-ready execution.</h2>
         </div>
-        <div class="two-col">
+
+        <div class="offer-grid">
+          <article class="offer-card featured">
+            <p class="offer-kicker">Offer Strategy</p>
+            <h3>Clarify what you’re selling</h3>
+            <p>Shape the promise, audience, mechanism, positioning, and value logic so the business actually makes sense.</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-kicker">Conversion Assets</p>
+            <h3>Create launch copy that fits together</h3>
+            <p>Generate hero sections, sales pages, emails, and messaging systems that feel cohesive instead of scattered.</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-kicker">Shipping Infrastructure</p>
+            <h3>Deploy pages like a real operator</h3>
+            <p>Use connected GitHub and Vercel workflows to move from draft to live page without technical drag slowing you down.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section shell outcome">
+        <div class="split-layout">
           <div>
-            <p>
-              You know you want to build something. But the offer is still fuzzy, the positioning keeps shifting, and every
-              new tool creates more tabs instead of more progress.
-            </p>
-            <p>
-              MM Now helps you move from scattered ideas to a business you can explain, package, and launch with confidence.
-            </p>
+            <p class="eyebrow">WHAT THIS MEANS</p>
+            <h2>You stop guessing what the business is — and start presenting it like it’s real.</h2>
           </div>
-          <div class="checklist">
-            <div class="check">You need a clear offer, not more vague brainstorming.</div>
-            <div class="check">You want practical next steps, not motivational fluff.</div>
-            <div class="check">You want to ship pages and assets, not just talk about them.</div>
+          <div class="check-stack">
+            <div class="check-card">A clearer offer people can understand fast</div>
+            <div class="check-card">Sharper copy that supports conversion</div>
+            <div class="check-card">A live page you can send immediately</div>
+            <div class="check-card">A workflow you can repeat for future launches</div>
           </div>
         </div>
       </section>
 
-      <section class="panel">
-        <div class="panel-header">
-          <p class="eyebrow">WHAT YOU GET</p>
-          <h2>A tighter path from idea to assets to launch.</h2>
+      <section class="section shell proof" id="proof">
+        <div class="section-head">
+          <p class="eyebrow">PROOF OF PIPELINE</p>
+          <h2>This page is already doing the job.</h2>
+          <p>
+            The repo is connected. The project is public. The deployment auto-updates from GitHub pushes. This page is the second
+            upgraded version of the workflow test — which means the shipping system already works.
+          </p>
         </div>
-        <div class="grid">
-          <article class="card">
-            <h3>Offer clarity</h3>
-            <p>Define the promise, mechanism, audience, and positioning in a way customers can actually understand.</p>
+
+        <div class="proof-grid">
+          <article class="proof-card">
+            <span class="proof-label">GitHub</span>
+            <strong>Connected repo</strong>
+            <p>Real repository, real commits, real push-based updates.</p>
           </article>
-          <article class="card">
-            <h3>Conversion copy</h3>
-            <p>Generate hero sections, sales pages, and email assets that work together instead of conflicting.</p>
+          <article class="proof-card">
+            <span class="proof-label">Vercel</span>
+            <strong>Public production deployment</strong>
+            <p>No private lock. Live URL is accessible and updating correctly.</p>
           </article>
-          <article class="card">
-            <h3>Deployment readiness</h3>
-            <p>Connect GitHub and Vercel, set up projects, and push working landing pages live when you're ready.</p>
+          <article class="proof-card">
+            <span class="proof-label">Workflow</span>
+            <strong>Second push verified</strong>
+            <p>Content changed, redeployed, and confirmed live — end to end.</p>
           </article>
         </div>
       </section>
 
-      <section class="panel accent">
-        <p class="eyebrow">WHY THIS IS DIFFERENT</p>
-        <h2>Pragmatic beats perfect.</h2>
-        <p>
-          MM Now is built to reduce drag. It breaks business-building into useful chunks, keeps the copy aligned, and turns
-          “I should launch this” into an actual page you can send people.
-        </p>
-      </section>
-
-      <section class="panel">
-        <div class="panel-header">
-          <p class="eyebrow">PIPELINE STATUS</p>
-          <h2>This page is the proof.</h2>
-        </div>
-        <div class="grid">
-          <article class="card">
-            <h3>GitHub connected</h3>
-            <p>This project lives in a real GitHub repo and accepts clean update pushes.</p>
-          </article>
-          <article class="card">
-            <h3>Vercel public</h3>
-            <p>Deployment protection was removed, so the production URL is publicly accessible.</p>
-          </article>
-          <article class="card">
-            <h3>Second deploy test</h3>
-            <p>This version is the follow-up push that verifies the live update workflow end to end.</p>
-          </article>
+      <section class="section shell final-cta">
+        <div class="final-card">
+          <p class="eyebrow">NEXT STEP</p>
+          <h2>Now turn this into your real business page.</h2>
+          <p>
+            The system is ready. The pipeline is proven. Next we swap the demo framing for your actual offer, audience, and CTA.
+          </p>
+          <div class="cta-row center">
+            <a class="button primary" href="https://test-zsygtx6ft8-1152s-projects.vercel.app">View live page</a>
+            <a class="button secondary" href="https://github.com/lynnsharer-ship-it/test">Open GitHub repo</a>
+          </div>
         </div>
       </section>
     </main>
